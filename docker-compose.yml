@@ -11,7 +11,7 @@ services:
     environment:
       KAFKA_ADVERTISED_HOST_NAME: localhost 
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_CREATE_TOPICS: "test:1:1:compact"
+      KAFKA_CREATE_TOPICS: "test:1:1"
 
   products:
     build: ./products/
