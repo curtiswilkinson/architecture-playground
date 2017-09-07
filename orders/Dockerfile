@@ -1,8 +1,8 @@
 FROM rust:1.19.0
 
-WORKDIR /usr/src/products
+WORKDIR /usr/src/orders
 COPY . .
 
 RUN cargo install
 
-C
+CMD ["cargo", "run"]
